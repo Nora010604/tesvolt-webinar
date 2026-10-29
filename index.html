@@ -47,18 +47,18 @@ b,strong{font-weight:500;color:var(--ink)}
 
 /* Hero */
 .hero{background:var(--night);color:#fff}
-.hero-img{width:100%;height:170px;object-fit:cover;object-position:75% 25%;background:var(--night-2)}
-.hero-copy{padding:20px 20px 24px;display:flex;flex-direction:column;gap:14px}
+.hero-img{width:100%;height:128px;object-fit:cover;object-position:70% 22%;background:var(--night-2)}
+.hero-copy{padding:16px 20px 20px;display:flex;flex-direction:column;gap:12px}
 .live{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-family:var(--head);font-weight:600;font-size:17px;letter-spacing:.8px;text-transform:uppercase;background:#fff;color:var(--ink);padding:3px 10px}
 .live i{width:9px;height:9px;border-radius:50%;background:#e0322b;display:inline-block;animation:pulse 1.6s infinite}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-.hero h1{font-size:clamp(31px,9.4vw,42px);text-transform:uppercase;letter-spacing:.3px;color:var(--ink);line-height:1.2}
+.hero h1{font-size:clamp(29px,8.6vw,40px);text-transform:uppercase;letter-spacing:.3px;color:var(--ink);line-height:1.2}
 .hero h1 span{background:var(--green);padding:1px 9px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.sub{font-size:17px;line-height:1.5;color:#d6e1e6}
+.sub{display:none;font-size:17px;line-height:1.45;color:#d6e1e6}
 .lead-desk{display:none}
 
 /* Formular-Karte */
-.card{background:#fff;color:var(--text);padding:22px 20px 26px;display:flex;flex-direction:column;gap:16px;border-top:6px solid var(--green)}
+.card{background:#fff;color:var(--text);padding:18px 20px 24px;display:flex;flex-direction:column;gap:14px;border-top:6px solid var(--green)}
 .when{display:flex;align-items:center;gap:14px}
 .cal{flex:none;width:62px;text-align:center;border:2px solid var(--ink);line-height:1}
 .cal .m{display:block;background:var(--ink);color:#fff;font-family:var(--head);font-weight:600;font-size:14px;letter-spacing:1px;padding:4px 0}
@@ -66,7 +66,8 @@ b,strong{font-weight:500;color:var(--ink)}
 .when-t{display:flex;flex-direction:column;line-height:1.25}
 .when-t b{font-family:var(--head);font-weight:600;font-size:24px;text-transform:uppercase}
 .when-t span{font-size:14px;color:var(--muted)}
-.card h2{font-size:27px;text-transform:uppercase}
+.card h2{font-size:25px;text-transform:uppercase}
+.card .pre-only h2{display:none}
 .prefilled{display:none;align-items:center;gap:8px;background:var(--sand);color:var(--green-dark);font-size:14px;font-weight:500;padding:9px 12px}
 .prefilled.on{display:flex}
 form{display:flex;flex-direction:column;gap:12px;margin:0}
@@ -150,6 +151,8 @@ footer a{color:#e5e5e5}
   .hero-img{height:auto;aspect-ratio:1150/403;object-position:100% 50%}
   .hero-copy{padding:28px 0 0;gap:18px}
   .hero h1{font-size:58px}
+  .card .pre-only h2{display:block}
+  .sub{display:block}
   .lead-desk{display:block;font-size:18px;color:#d6e1e6}
   .card{padding:30px 32px 32px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
   .sticky{display:none}
