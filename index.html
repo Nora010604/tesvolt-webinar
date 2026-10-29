@@ -3,36 +3,28 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Batteriespeicher sicher ans Netz bringen – Experten-Webinar | TESVOLT &amp; Omexom</title>
-<meta name="description" content="Kostenloses Experten-Webinar von TESVOLT und Omexom: Netzanschluss für Batteriespeicher richtig planen – von den technischen Anforderungen bis zum Konformitätsnachweis.">
-<meta property="og:title" content="Batteriespeicher sicher ans Netz bringen">
-<meta property="og:description" content="Kostenloses Experten-Webinar von TESVOLT und Omexom. Jetzt Platz sichern.">
+<title>Batteriespeicher sicher ans Netz bringen – Live-Webinar am 30.10. | TESVOLT &amp; Omexom</title>
+<meta name="description" content="Kostenloses Live-Webinar von TESVOLT und Omexom am 30. Oktober um 10 Uhr: Netzanschluss für Batteriespeicher richtig planen. In 10 Sekunden anmelden.">
+<meta property="og:title" content="Batteriespeicher sicher ans Netz bringen – Live-Webinar am 30.10.">
+<meta property="og:description" content="Kostenloses Experten-Webinar von TESVOLT und Omexom. In 10 Sekunden anmelden.">
 <meta property="og:image" content="https://www.tesvolt.com/_media/_processed_/7a/83/51/Omexom_Banner_1920x430_6551_1920x1920.jpg">
 <meta name="theme-color" content="#0b2230">
 <link rel="icon" href="https://www.tesvolt.com/favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;1,600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 <!--
   Tracking vor Kampagnenstart hier einfügen:
-  - Meta Pixel (Event "Lead" beim Klick auf einen Anmelde-Button)
-  - LinkedIn Insight Tag (Conversion beim Klick auf einen Anmelde-Button)
+  - Meta Pixel Basiscode  (das Lead-Event feuert das Formular unten automatisch)
+  - LinkedIn Insight Tag  (Conversion-ID unten bei LINKEDIN_CONVERSION_ID eintragen)
 -->
 <style>
 :root{
-  --green:#9dbf26;
-  --green-dark:#5e7416;
-  --teal:#009cb6;
-  --teal-hover:#00869c;
-  --ink:#222222;
-  --text:#3d3d3d;
-  --muted:#666666;
-  --line:#e3e3e3;
-  --night:#0b2230;
-  --night-2:#12303f;
-  --sand:#f3f6ea;
-  --head:'Barlow Condensed', 'Roboto Condensed', Arial Narrow, sans-serif;
-  --body:Roboto, Arial, sans-serif;
+  --green:#9dbf26;--green-hi:#b0d334;--green-dark:#5e7416;
+  --teal:#009cb6;--ink:#222;--text:#3d3d3d;--muted:#666;--line:#e3e3e3;
+  --night:#0b2230;--night-2:#12303f;--sand:#f3f6ea;--err:#b3261e;
+  --head:'Barlow Condensed','Roboto Condensed','Arial Narrow',sans-serif;
+  --body:Roboto,Arial,sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
@@ -41,179 +33,218 @@ img{max-width:100%;display:block}
 a{color:inherit}
 .wrap{max-width:1180px;margin:0 auto;padding:0 20px}
 h1,h2,h3{font-family:var(--head);color:var(--ink);font-weight:500;line-height:1.05;margin:0}
-h2{font-size:34px;letter-spacing:.2px}
-h3{font-size:24px}
+h2{font-size:34px}
+h3{font-size:23px}
 p{margin:0}
-strong,b{font-weight:500;color:var(--ink)}
+b,strong{font-weight:500;color:var(--ink)}
 
 /* Header */
-.top{background:#fff;border-bottom:1px solid var(--line);position:relative;z-index:2}
-.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
-.logo img{height:46px;width:auto}
-.partner{font-size:13px;color:var(--muted);text-align:right;line-height:1.3}
-.partner b{display:block;font-family:var(--head);font-size:20px;letter-spacing:1.5px;color:var(--ink);font-weight:600}
+.top{background:#fff;border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:60px}
+.logo img{height:42px;width:auto}
+.partner{font-size:12px;color:var(--muted);text-align:right;line-height:1.25}
+.partner b{display:block;font-family:var(--head);font-size:19px;letter-spacing:1.5px;font-weight:600}
 
 /* Hero */
-.hero{background:var(--night);color:#fff;overflow:hidden}
-.hero-img{width:100%;height:230px;object-fit:cover;object-position:75% 30%;background:var(--night-2)}
-.hero-copy{padding:28px 20px 36px;display:flex;flex-direction:column;gap:18px}
-.kicker{align-self:flex-start;font-family:var(--head);font-weight:500;font-size:17px;letter-spacing:1px;text-transform:uppercase;background:#fff;color:var(--ink);padding:3px 10px}
-.hero h1{font-size:clamp(32px,9.6vw,42px);hyphens:manual;-webkit-hyphens:manual;overflow-wrap:break-word;text-transform:uppercase;letter-spacing:.3px;color:var(--ink);line-height:1.18}
-.hero h1 span{background:var(--green);padding:1px 10px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-.lead{font-size:18px;line-height:1.55;color:#d6e1e6}
-.facts{display:flex;flex-wrap:wrap;gap:8px 20px;font-size:15px;font-weight:400;color:#fff;list-style:none;margin:0;padding:0}
-.facts li{display:flex;align-items:center;gap:7px}
-.facts svg{flex:none}
+.hero{background:var(--night);color:#fff}
+.hero-img{width:100%;height:170px;object-fit:cover;object-position:75% 25%;background:var(--night-2)}
+.hero-copy{padding:20px 20px 24px;display:flex;flex-direction:column;gap:14px}
+.live{align-self:flex-start;display:inline-flex;align-items:center;gap:8px;font-family:var(--head);font-weight:600;font-size:17px;letter-spacing:.8px;text-transform:uppercase;background:#fff;color:var(--ink);padding:3px 10px}
+.live i{width:9px;height:9px;border-radius:50%;background:#e0322b;display:inline-block;animation:pulse 1.6s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.hero h1{font-size:clamp(31px,9.4vw,42px);text-transform:uppercase;letter-spacing:.3px;color:var(--ink);line-height:1.2}
+.hero h1 span{background:var(--green);padding:1px 9px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.sub{font-size:17px;line-height:1.5;color:#d6e1e6}
+.lead-desk{display:none}
 
-/* Anmeldung */
-.signup{background:#fff;color:var(--text);padding:28px 20px 36px;margin:0;display:flex;flex-direction:column;gap:14px}
-.signup h2{font-size:28px;text-transform:uppercase}
-.signup .hint{font-size:15px;color:var(--muted)}
-.dates{display:flex;flex-direction:column;gap:12px}
-.date{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:72px;padding:12px 18px;background:var(--teal);color:#fff;text-decoration:none;transition:background .15s}
-.date:hover,.date:focus-visible{background:var(--teal-hover)}
-.date:focus-visible{outline:3px solid var(--green);outline-offset:2px}
-.date .when{display:flex;flex-direction:column;line-height:1.15}
-.date .day{font-family:var(--head);font-weight:600;font-size:24px;text-transform:uppercase;letter-spacing:.3px}
-.date .time{font-size:15px;font-weight:400}
-.date .go{font-family:var(--head);font-weight:600;font-size:19px;text-transform:uppercase;letter-spacing:.5px;display:flex;align-items:center;gap:6px;white-space:nowrap}
-.small{font-size:13px;line-height:1.5;color:var(--muted)}
+/* Formular-Karte */
+.card{background:#fff;color:var(--text);padding:22px 20px 26px;display:flex;flex-direction:column;gap:16px;border-top:6px solid var(--green)}
+.when{display:flex;align-items:center;gap:14px}
+.cal{flex:none;width:62px;text-align:center;border:2px solid var(--ink);line-height:1}
+.cal .m{display:block;background:var(--ink);color:#fff;font-family:var(--head);font-weight:600;font-size:14px;letter-spacing:1px;padding:4px 0}
+.cal .d{display:block;font-family:var(--head);font-weight:700;font-size:32px;color:var(--ink);padding:4px 0 3px}
+.when-t{display:flex;flex-direction:column;line-height:1.25}
+.when-t b{font-family:var(--head);font-weight:600;font-size:24px;text-transform:uppercase}
+.when-t span{font-size:14px;color:var(--muted)}
+.card h2{font-size:27px;text-transform:uppercase}
+.prefilled{display:none;align-items:center;gap:8px;background:var(--sand);color:var(--green-dark);font-size:14px;font-weight:500;padding:9px 12px}
+.prefilled.on{display:flex}
+form{display:flex;flex-direction:column;gap:12px;margin:0}
+.field{position:relative}
+.field input{width:100%;height:58px;padding:22px 44px 6px 16px;border:2px solid #c9c9c9;border-radius:0;background:#fff;font:400 17px/1 var(--body);color:var(--ink);-webkit-appearance:none;appearance:none;transition:border-color .15s}
+.field label{position:absolute;left:17px;top:19px;font-size:16px;color:var(--muted);pointer-events:none;transition:all .15s}
+.field input:focus{outline:none;border-color:var(--teal)}
+.field input:focus+label,.field input:not(:placeholder-shown)+label{top:8px;font-size:12px;font-weight:500;color:var(--teal)}
+.field .ok{position:absolute;right:14px;top:19px;opacity:0;transition:opacity .15s}
+.field.valid .ok{opacity:1}
+.field.valid input{border-color:var(--green)}
+.field.bad input{border-color:var(--err)}
+.err{display:none;font-size:13px;color:var(--err);margin-top:4px}
+.field.bad .err{display:block}
+.cta{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:62px;border:0;border-radius:0;background:var(--green);color:var(--ink);font-family:var(--head);font-weight:700;font-size:23px;letter-spacing:.6px;text-transform:uppercase;cursor:pointer;box-shadow:0 6px 0 var(--green-dark);transition:transform .08s,box-shadow .08s,background .15s;margin-top:4px}
+.cta:hover{background:var(--green-hi)}
+.cta:active{transform:translateY(4px);box-shadow:0 2px 0 var(--green-dark)}
+.cta:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.cta[disabled]{opacity:.7;cursor:wait}
+.trust{display:flex;flex-direction:column;gap:6px;font-size:13px;color:var(--muted);line-height:1.45}
+.trust div{display:flex;gap:8px;align-items:flex-start}
+.trust svg{flex:none;margin-top:2px}
 
-/* Sections */
-section.block{padding:64px 0}
-.intro{display:flex;flex-direction:column;gap:14px;max-width:760px}
-.eyebrow{font-family:var(--head);font-weight:500;font-size:17px;letter-spacing:1px;text-transform:uppercase;color:var(--green-dark)}
-.three{display:grid;grid-template-columns:1fr;gap:28px;margin-top:36px}
-.three .num{font-family:var(--head);font-weight:500;font-size:46px;line-height:1;color:var(--green)}
-.three h3{margin:8px 0 6px}
+/* Erfolg */
+.done{display:none;flex-direction:column;gap:14px}
+.card.sent form,.card.sent .pre-only{display:none}
+.card.sent .done{display:flex}
+.check{width:58px;height:58px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center}
+.done h2{font-size:34px}
+.btns{display:flex;flex-direction:column;gap:10px}
+.btn2{display:flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 18px;border:2px solid var(--ink);background:#fff;color:var(--ink);font-family:var(--head);font-weight:600;font-size:19px;text-transform:uppercase;letter-spacing:.4px;text-decoration:none;cursor:pointer}
+.btn2.fill{background:var(--teal);border-color:var(--teal);color:#fff}
 
+/* Inhalte */
+section.block{padding:56px 0}
+.eyebrow{font-family:var(--head);font-weight:600;font-size:16px;letter-spacing:1px;text-transform:uppercase;color:var(--green-dark);display:block;margin-bottom:6px}
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none}
+.facts li{background:var(--sand);padding:12px 14px;font-size:15px;line-height:1.35}
+.facts b{display:block;font-family:var(--head);font-weight:600;font-size:21px}
+.intro{margin-top:40px;display:flex;flex-direction:column;gap:12px;max-width:760px}
+.learn{list-style:none;margin:20px 0 0;padding:0;display:flex;flex-direction:column;gap:12px}
+.learn li{display:flex;gap:12px;align-items:flex-start}
+.learn svg{flex:none;margin-top:3px}
 .agenda{background:var(--sand)}
-.agenda ol{list-style:none;margin:28px 0 0;padding:0;counter-reset:a;display:grid;grid-template-columns:1fr;column-gap:40px}
-.agenda li{counter-increment:a;display:flex;gap:16px;padding:14px 0;border-bottom:1px solid #d6ddc2}
-.agenda li::before{content:counter(a);font-family:var(--head);font-weight:600;font-size:24px;line-height:1.1;color:var(--green-dark);min-width:22px}
-.agenda li b{display:block}
-.agenda li span{font-size:15px;color:var(--muted)}
-
-.experts{display:grid;grid-template-columns:1fr;gap:20px;margin-top:28px}
-.expert{border-top:4px solid var(--green);padding-top:16px}
-.expert .role{font-weight:500;color:var(--green-dark);font-size:15px;margin:4px 0 8px}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px;list-style:none;padding:0}
-.chips li{background:var(--sand);padding:7px 13px;font-size:15px;font-weight:400;color:var(--ink)}
-
-.band{background:var(--green);color:var(--ink);padding:48px 0}
+.agenda ol{list-style:none;margin:24px 0 0;padding:0;counter-reset:a;display:grid;grid-template-columns:1fr;column-gap:40px}
+.agenda li{counter-increment:a;display:flex;gap:14px;padding:12px 0;border-bottom:1px solid #d6ddc2}
+.agenda li::before{content:counter(a);font-family:var(--head);font-weight:600;font-size:22px;line-height:1.15;color:var(--green-dark);min-width:20px}
+.experts{display:grid;grid-template-columns:1fr;gap:20px;margin-top:24px}
+.expert{border-top:4px solid var(--green);padding-top:14px}
+.expert .role{font-weight:500;color:var(--green-dark);font-size:15px;margin:2px 0 6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0;list-style:none;padding:0}
+.chips li{background:var(--sand);padding:6px 12px;font-size:14px;font-weight:400;color:var(--ink)}
+.band{background:var(--night);color:#fff;padding:44px 0}
 .band .wrap{display:flex;flex-direction:column;gap:18px}
-.band h2{text-transform:uppercase;font-size:34px}
-.band p{font-weight:400}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:54px;padding:0 26px;background:var(--teal);color:#fff;text-decoration:none;font-family:var(--head);font-weight:600;font-size:21px;letter-spacing:.5px;text-transform:uppercase;align-self:flex-start;transition:background .15s}
-.btn:hover,.btn:focus-visible{background:var(--teal-hover)}
-.btn.dark{background:var(--ink)}
-.btn.dark:hover{background:#000}
-
-footer{background:var(--ink);color:#bdbdbd;font-size:14px;padding:28px 0 96px}
-footer .wrap{display:flex;flex-direction:column;gap:10px}
+.band h2{color:#fff;text-transform:uppercase}
+.band p{color:#d6e1e6}
+.band .cta{max-width:420px}
+footer{background:var(--ink);color:#bdbdbd;font-size:14px;padding:26px 0 100px}
+footer .wrap{display:flex;flex-direction:column;gap:8px}
 footer nav{display:flex;gap:20px}
 footer a{color:#e5e5e5}
 
-/* Sticky CTA (mobile) */
-.sticky{position:fixed;left:0;right:0;bottom:0;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(0,0,0,.08);z-index:10;transform:translateY(110%);transition:transform .25s}
+/* Sticky-Button (mobil) */
+.sticky{position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(0,0,0,.1);z-index:10;transform:translateY(120%);transition:transform .25s}
 .sticky.show{transform:none}
-.sticky .btn{width:100%;align-self:stretch}
+.sticky .cta{min-height:54px;font-size:21px;margin:0;box-shadow:0 4px 0 var(--green-dark)}
 
-/* Tablet & Desktop */
 @media (min-width:720px){
   .wrap{padding:0 32px}
-  h2{font-size:42px}
-  .hero h1{font-size:54px}
-  .three{grid-template-columns:repeat(3,minmax(0,1fr));gap:40px}
+  h2{font-size:40px}
+  .facts{grid-template-columns:repeat(4,minmax(0,1fr))}
   .agenda ol{grid-template-columns:repeat(2,minmax(0,1fr))}
   .experts{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px}
   .band .wrap{flex-direction:row;align-items:center;justify-content:space-between}
-  .band .btn{align-self:center}
-  footer{padding-bottom:28px}
+  .btns{flex-direction:row}
+  footer{padding-bottom:26px}
   footer .wrap{flex-direction:row;justify-content:space-between}
 }
 @media (min-width:1000px){
-  .hero-inner{max-width:1180px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px;align-items:start}
-  .hero-left{display:flex;flex-direction:column}
-  .hero-img{height:auto;aspect-ratio:1150/403;margin-top:40px;object-position:100% 50%}
-  .hero-copy{padding:32px 0 56px}
-  .hero h1{font-size:60px}
-  .signup{margin:40px 0 56px;padding:32px;box-shadow:0 24px 60px rgba(0,0,0,.35);position:sticky;top:24px}
+  .hero-inner{max-width:1180px;margin:0 auto;padding:40px 32px 56px;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:48px;align-items:start}
+  .hero-img{height:auto;aspect-ratio:1150/403;object-position:100% 50%}
+  .hero-copy{padding:28px 0 0;gap:18px}
+  .hero h1{font-size:58px}
+  .lead-desk{display:block;font-size:18px;color:#d6e1e6}
+  .card{padding:30px 32px 32px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
   .sticky{display:none}
 }
-@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sticky,.date,.btn{transition:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.live i{animation:none}.sticky,.cta,.field input{transition:none}}
 </style>
 </head>
 <body>
 
 <header class="top">
   <div class="wrap">
-    <a class="logo" href="https://www.tesvolt.com/de/" aria-label="TESVOLT Startseite">
-      <img src="https://www.tesvolt.com/templates/tesvolt-2026/images/tesvolt-logo-claim-2022.svg" alt="TESVOLT – Free to go green." width="98" height="46">
-    </a>
-    <div class="partner">Ein Webinar mit<b>OMEXOM</b></div>
+    <img class="logo" src="https://www.tesvolt.com/templates/tesvolt-2026/images/tesvolt-logo-claim-2022.svg" alt="TESVOLT – Free to go green." width="89" height="42">
+    <div class="partner">Live-Webinar mit<b>OMEXOM</b></div>
   </div>
 </header>
 
 <main>
 <section class="hero">
   <div class="hero-inner">
-    <div class="hero-left">
-      <img class="hero-img" src="https://www.tesvolt.com/_media/_processed_/7a/83/51/Omexom_Banner_1920x430_6551_1920x1920.jpg" alt="Die Webinar-Experten Mathias Zdzieblowski (TESVOLT) und Timon Mund (Omexom)" width="1920" height="403">
+    <div>
+      <img class="hero-img" src="https://www.tesvolt.com/_media/_processed_/7a/83/51/Omexom_Banner_1920x430_6551_1920x1920.jpg" alt="Ihre Experten: Mathias Zdzieblowski (TESVOLT) und Timon Mund (Omexom)" width="1920" height="403">
       <div class="hero-copy">
-        <span class="kicker">Kostenloses Experten-Webinar</span>
+        <span class="live"><i aria-hidden="true"></i>Live · Fr., 30.10. · 10:00 Uhr</span>
         <h1><span>Batteriespeicher sicher ans Netz bringen</span></h1>
-        <p class="lead">Netzanschluss richtig planen – von den technischen Anforderungen bis zum Konformitätsnachweis. Damit Ihr Speicherprojekt nicht an Verzögerungen, Zusatzkosten oder Nacharbeiten hängen bleibt.</p>
-        <ul class="facts">
-          <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9dbf26" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>60–90 Minuten</li>
-          <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9dbf26" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="13" height="12" rx="2"/><path d="M16 10l5-3v10l-5-3"/></svg>Online via Zoom</li>
-          <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9dbf26" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>Kostenlos</li>
-          <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9dbf26" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>Live-Q&amp;A</li>
-        </ul>
+        <p class="sub">Netzanschluss richtig planen – kostenlos, kompakt und mit Live-Q&amp;A.</p>
+        <p class="lead-desk">Was Netzbetreiber, VDE-AR-N 4105 und 4110 wirklich verlangen, wo Projekte typischerweise hängen bleiben und wie Sie Verzögerungen, Zusatzkosten und Nacharbeiten vermeiden.</p>
       </div>
     </div>
 
-    <div class="signup" id="anmeldung">
-      <h2>Termin wählen &amp; anmelden</h2>
-      <p class="hint">Ein Klick auf Ihren Wunschtermin – den Zoom-Link erhalten Sie direkt per E-Mail.</p>
-      <div class="dates">
-        <a class="date" href="https://tesvoltcustomer.powerappsportals.com/de-DE/contactguestlogin/?webinarid=970" data-track="anmeldung-29-10">
-          <span class="when"><span class="day">Do., 29. Oktober</span><span class="time">13:00 Uhr</span></span>
-          <span class="go">Anmelden <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </a>
-        <a class="date" href="https://tesvoltcustomer.powerappsportals.com/de-DE/contactguestlogin/?webinarid=971" data-track="anmeldung-30-10">
-          <span class="when"><span class="day">Fr., 30. Oktober</span><span class="time">10:00 Uhr</span></span>
-          <span class="go">Anmelden <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
-        </a>
+    <div class="card" id="anmeldung">
+      <div class="when">
+        <div class="cal" aria-hidden="true"><span class="m">OKT</span><span class="d">30</span></div>
+        <div class="when-t"><b>Freitag, 10:00 Uhr</b><span>Online via Zoom · 60–90 Min. · kostenlos</span></div>
       </div>
-      <p class="small">Kostenfrei und unverbindlich. Es gelten die <a href="https://www.tesvolt.com/de/datenschutz.html">Datenschutzhinweise</a> der TESVOLT AG.</p>
+
+      <div class="pre-only">
+        <h2>Jetzt kostenlos teilnehmen</h2>
+      </div>
+      <div class="prefilled pre-only" id="prefilled">
+        <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5e7416" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>
+        Ihre Daten sind schon eingetragen – nur noch bestätigen.
+      </div>
+
+      <form id="form" novalidate>
+        <div class="field" id="f-name">
+          <input id="name" name="name" type="text" autocomplete="name" autocapitalize="words" enterkeyhint="next" placeholder=" " required>
+          <label for="name">Vor- und Nachname</label>
+          <svg class="ok" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5e7416" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>
+          <div class="err" id="e-name">Bitte geben Sie Ihren Namen ein.</div>
+        </div>
+        <div class="field" id="f-mail">
+          <input id="email" name="email" type="email" inputmode="email" autocomplete="email" autocapitalize="off" spellcheck="false" enterkeyhint="send" placeholder=" " required>
+          <label for="email">Geschäftliche E-Mail</label>
+          <svg class="ok" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5e7416" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg>
+          <div class="err" id="e-mail">Bitte prüfen Sie Ihre E-Mail-Adresse.</div>
+        </div>
+        <button class="cta" type="submit" id="submit">Platz sichern
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+        <div class="trust">
+          <div><svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span>Kein Spam. Den Zoom-Link erhalten Sie per E-Mail.</span></div>
+          <div><span>Mit der Anmeldung gelten die <a href="https://www.tesvolt.com/de/datenschutz.html">Datenschutzhinweise</a> der TESVOLT AG.</span></div>
+        </div>
+      </form>
+
+      <div class="done" role="status" aria-live="polite">
+        <div class="check"><svg aria-hidden="true" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg></div>
+        <h2><span id="hi">Sie sind dabei!</span></h2>
+        <p>Ihr Platz für Freitag, 30. Oktober, 10:00 Uhr ist reserviert. Den Zoom-Link senden wir Ihnen vor dem Start an <b id="mailecho"></b>.</p>
+        <div class="btns">
+          <a class="btn2 fill" id="gcal" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Webinar%3A%20Batteriespeicher%20sicher%20ans%20Netz%20bringen%20(TESVOLT%20%26%20Omexom)&amp;dates=20261030T090000Z/20261030T103000Z&amp;details=Kostenloses%20Live-Webinar%20von%20TESVOLT%20und%20Omexom.%20Der%20Zoom-Link%20kommt%20per%20E-Mail.">Google Kalender</a>
+          <button class="btn2" type="button" id="ics">Outlook / Apple</button>
+        </div>
+        <button class="btn2" type="button" id="share">Kollegen einladen</button>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="block">
   <div class="wrap">
+    <ul class="facts">
+      <li><b>Fr., 30.10.</b>10:00 Uhr</li>
+      <li><b>60–90 Min.</b>inkl. Live-Q&amp;A</li>
+      <li><b>Zoom</b>bequem online</li>
+      <li><b>Kostenlos</b>für alle Teilnehmer</li>
+    </ul>
     <div class="intro">
-      <span class="eyebrow">Darum geht's</span>
+      <span class="eyebrow">Das nehmen Sie mit</span>
       <h2>Am Netzanschluss entscheidet sich, ob Ihr Speicher pünktlich ans Netz geht</h2>
-      <p>Netzbetreiber stellen unterschiedliche Vorgaben, dazu kommen Regelwerke, Schutzkonzepte und Zertifikate. Wer das erst spät im Projekt klärt, riskiert Nachforderungen und teure Anpassungen. In diesem Webinar bündeln TESVOLT und Omexom ihre Praxiserfahrung.</p>
-    </div>
-    <div class="three">
-      <div>
-        <div class="num">01</div>
-        <h3>Anforderungen kennen</h3>
-        <p>Was Netzbetreiber sowie VDE-AR-N 4105 und 4110 in Nieder- und Mittelspannung verlangen.</p>
-      </div>
-      <div>
-        <div class="num">02</div>
-        <h3>Hürden früh erkennen</h3>
-        <p>Typische Stolpersteine bei Planung, Genehmigung, Schutztechnik und Nachweisen – und wie Sie sie umgehen.</p>
-      </div>
-      <div>
-        <div class="num">03</div>
-        <h3>Speicher wirtschaftlich nutzen</h3>
-        <p>Vom Anschlusskonzept bis zur Umsetzung, plus Erlösmodelle mit TESVOLT Energy Trading.</p>
-      </div>
+      <ul class="learn">
+        <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5e7416" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span><b>Anforderungen verstehen:</b> was Netzbetreiber sowie VDE-AR-N 4105 und 4110 in Nieder- und Mittelspannung verlangen.</span></li>
+        <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5e7416" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span><b>Hürden vermeiden:</b> typische Stolpersteine bei Genehmigung, Schutztechnik und Zertifikaten.</span></li>
+        <li><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5e7416" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l4 4 10-10"/></svg><span><b>Praxis &amp; Erlöse:</b> ein Projekt vom Konzept bis zur Umsetzung – plus Vermarktung mit TESVOLT Energy Trading.</span></li>
+      </ul>
     </div>
   </div>
 </section>
@@ -223,15 +254,15 @@ footer a{color:#e5e5e5}
     <span class="eyebrow">Agenda</span>
     <h2>Das erwartet Sie</h2>
     <ol>
-      <li><div><b>Grundlagen des Netzanschlusses</b><span>Technische und regulatorische Anforderungen im Überblick</span></div></li>
-      <li><div><b>Typische Hürden bei Planung und Genehmigung</b><span>Verzögerungen und Nachforderungen vermeiden</span></div></li>
-      <li><div><b>Regelwerke und Normen</b><span>VDE-AR-N 4105 und VDE-AR-N 4110</span></div></li>
-      <li><div><b>Anschlusskonzepte</b><span>Für Nieder- und Mittelspannung</span></div></li>
-      <li><div><b>Schutztechnik</b><span>Anforderungen der Netzbetreiber und projektspezifische Abstimmung</span></div></li>
-      <li><div><b>Zertifikate und Konformitätsnachweise</b><span>Anlagen- und Einheitenzertifikate im Projektverlauf</span></div></li>
-      <li><div><b>Praxisbeispiel</b><span>Vom Netzanschlusskonzept bis zur Umsetzung</span></div></li>
-      <li><div><b>Speicher wirtschaftlich nutzen</b><span>Vermarktung mit TESVOLT Energy Trading</span></div></li>
-      <li><div><b>Q&amp;A</b><span>Ihre Fragen und konkreten Herausforderungen</span></div></li>
+      <li>Grundlagen: technische und regulatorische Anforderungen</li>
+      <li>Typische Hürden bei Planung und Genehmigung</li>
+      <li>Regelwerke: VDE-AR-N 4105 und 4110</li>
+      <li>Anschlusskonzepte für Nieder- und Mittelspannung</li>
+      <li>Schutztechnik und Vorgaben der Netzbetreiber</li>
+      <li>Zertifikate und Konformitätsnachweise</li>
+      <li>Praxisbeispiel vom Konzept bis zur Umsetzung</li>
+      <li>Speicher wirtschaftlich nutzen mit Energy Trading</li>
+      <li>Live-Q&amp;A zu Ihren Projekten</li>
     </ol>
   </div>
 </section>
@@ -244,7 +275,7 @@ footer a{color:#e5e5e5}
       <div class="expert">
         <h3>Mathias Zdzieblowski</h3>
         <p class="role">TESVOLT Expert · Moderation</p>
-        <p>Seit 2008 in der Erneuerbare-Energien-Branche, seit 2014 bei TESVOLT. Hat bereits über 5.000 Kunden live geschult.</p>
+        <p>Seit 2008 in der Erneuerbare-Energien-Branche, seit 2014 bei TESVOLT. Über 5.000 Kunden live geschult.</p>
       </div>
       <div class="expert">
         <h3>Timon Mund</h3>
@@ -252,16 +283,15 @@ footer a{color:#e5e5e5}
         <p>Experte für Netzanschluss, Planung und Projektierung.</p>
       </div>
     </div>
-    <h3 style="margin-top:48px">Für wen ist das Webinar?</h3>
+    <h3 style="margin-top:44px">Ideal für</h3>
     <ul class="chips">
       <li>Installateure &amp; Fachpartner</li>
       <li>EPCs &amp; Systemintegratoren</li>
       <li>Projektentwickler &amp; Planungsbüros</li>
       <li>Stadtwerke &amp; Energieversorger</li>
-      <li>Gewerbe- &amp; Industriekunden</li>
+      <li>Gewerbe &amp; Industrie</li>
       <li>Energieberater</li>
       <li>Investoren &amp; Speicherbetreiber</li>
-      <li>Netzanschluss &amp; Elektrotechnik</li>
     </ul>
   </div>
 </section>
@@ -269,10 +299,10 @@ footer a{color:#e5e5e5}
 <section class="band">
   <div class="wrap">
     <div>
-      <h2>Sichern Sie sich Ihren Platz</h2>
-      <p>Kostenlos, online und mit Raum für Ihre Fragen.</p>
+      <h2>Freitag, 10:00 Uhr – sind Sie dabei?</h2>
+      <p>Kostenlos und in 10 Sekunden angemeldet.</p>
     </div>
-    <a class="btn" href="#anmeldung">Termin wählen</a>
+    <a class="cta" href="#anmeldung" data-focus>Platz sichern</a>
   </div>
 </section>
 </main>
@@ -288,21 +318,111 @@ footer a{color:#e5e5e5}
 </footer>
 
 <div class="sticky" id="sticky" aria-hidden="true">
-  <a class="btn" href="#anmeldung" tabindex="-1">Kostenlos anmelden</a>
+  <a class="cta" href="#anmeldung" tabindex="-1" data-focus>Kostenlos teilnehmen</a>
 </div>
 
 <script>
 (function(){
-  var bar=document.getElementById('sticky'),box=document.getElementById('anmeldung');
-  if(!('IntersectionObserver' in window)||!bar||!box)return;
-  var past=false;
-  new IntersectionObserver(function(e){
-    var r=e[0];
-    past=!r.isIntersecting;
-    bar.classList.toggle('show',past);
-    bar.setAttribute('aria-hidden',past?'false':'true');
-    bar.querySelector('a').setAttribute('tabindex',past?'0':'-1');
-  }).observe(box);
+  var FORM_URL='https://docs.google.com/forms/d/e/1FAIpQLSdo1X-5vHfzuXP91OMNLf7c_H-S_V1-HHYMf6tL7C4b6yyChw/formResponse';
+  var E_NAME='entry.1709178537', E_MAIL='entry.1501758583', E_SRC='entry.810539808';
+  var LINKEDIN_CONVERSION_ID=null; // z. B. 12345678
+
+  var $=function(id){return document.getElementById(id)};
+  var card=$('anmeldung'), form=$('form'), nameI=$('name'), mailI=$('email'), btn=$('submit');
+  var q=new URLSearchParams(location.search);
+  var store={get:function(k){try{return localStorage.getItem(k)}catch(e){return null}},set:function(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+
+  // Vorausfüllen: URL-Parameter (Mailings/Ads) > frühere Eingabe > Browser-Autofill
+  var pName=q.get('name')||[q.get('vorname')||q.get('first_name')||'',q.get('nachname')||q.get('last_name')||''].join(' ').trim();
+  var pMail=q.get('email')||q.get('mail')||'';
+  var pre=false;
+  if(pName){nameI.value=pName;pre=true}else if(store.get('tv_name')){nameI.value=store.get('tv_name')}
+  if(pMail){mailI.value=pMail;pre=true}else if(store.get('tv_mail')){mailI.value=store.get('tv_mail')}
+  if(pre&&nameI.value&&mailI.value)$('prefilled').classList.add('on');
+
+  var src=[q.get('utm_source'),q.get('utm_medium'),q.get('utm_campaign'),q.get('utm_content')].filter(Boolean).join(' | ')
+    ||(document.referrer?('ref: '+document.referrer.split('/')[2]):'direkt');
+
+  function okName(v){return v.trim().length>=2}
+  function okMail(v){return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v.trim())}
+  function mark(f,ok,show){f.classList.toggle('valid',ok);f.classList.toggle('bad',!ok&&show)}
+  function check(show){
+    var a=okName(nameI.value),b=okMail(mailI.value);
+    mark($('f-name'),a,show);mark($('f-mail'),b,show);
+    return {a:a,b:b};
+  }
+  check(false);
+  nameI.addEventListener('input',function(){check(false)});
+  mailI.addEventListener('input',function(){check(false)});
+  nameI.addEventListener('blur',function(){if(nameI.value)mark($('f-name'),okName(nameI.value),true)});
+  mailI.addEventListener('blur',function(){if(mailI.value)mark($('f-mail'),okMail(mailI.value),true)});
+  nameI.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();mailI.focus()}});
+
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var r=check(true);
+    if(!r.a){nameI.focus();return}
+    if(!r.b){mailI.focus();return}
+    btn.disabled=true;btn.firstChild.nodeValue='Einen Moment … ';
+    var body=new URLSearchParams();
+    body.append(E_NAME,nameI.value.trim());
+    body.append(E_MAIL,mailI.value.trim());
+    body.append(E_SRC,src);
+    store.set('tv_name',nameI.value.trim());store.set('tv_mail',mailI.value.trim());
+    fetch(FORM_URL,{method:'POST',mode:'no-cors',body:body}).catch(function(){}).then(done);
+  });
+
+  function done(){
+    var first=nameI.value.trim().split(/\s+/)[0];
+    if(first)$('hi').textContent='Danke, '+first+' – Sie sind dabei!';
+    $('mailecho').textContent=mailI.value.trim();
+    card.classList.add('sent');
+    card.scrollIntoView({behavior:'smooth',block:'start'});
+    try{if(window.fbq)fbq('track','Lead',{content_name:'Webinar Netzanschluss 30.10.'})}catch(e){}
+    try{if(window.lintrk&&LINKEDIN_CONVERSION_ID)lintrk('track',{conversion_id:LINKEDIN_CONVERSION_ID})}catch(e){}
+    try{if(window.gtag)gtag('event','generate_lead')}catch(e){}
+    hideSticky=true;bar.classList.remove('show');
+  }
+
+  // Kalenderdatei für Outlook / Apple
+  $('ics').addEventListener('click',function(){
+    var ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//TESVOLT//Webinar//DE','BEGIN:VEVENT',
+      'UID:tesvolt-webinar-20261030@tesvolt','DTSTAMP:20261029T000000Z',
+      'DTSTART:20261030T090000Z','DTEND:20261030T103000Z',
+      'SUMMARY:Webinar: Batteriespeicher sicher ans Netz bringen (TESVOLT & Omexom)',
+      'DESCRIPTION:Kostenloses Live-Webinar. Der Zoom-Link kommt per E-Mail.',
+      'BEGIN:VALARM','TRIGGER:-PT15M','ACTION:DISPLAY','DESCRIPTION:Webinar startet gleich','END:VALARM',
+      'END:VEVENT','END:VCALENDAR'].join('\r\n');
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob([ics],{type:'text/calendar'}));
+    a.download='Webinar-Netzanschluss-30-10.ics';document.body.appendChild(a);a.click();a.remove();
+  });
+
+  // Weiterempfehlen
+  $('share').addEventListener('click',function(){
+    var url=location.origin+location.pathname+'?utm_source=empfehlung';
+    var text='Kostenloses Webinar von TESVOLT & Omexom: Batteriespeicher sicher ans Netz bringen – Fr., 30.10., 10 Uhr';
+    if(navigator.share){navigator.share({title:'Webinar Netzanschluss',text:text,url:url}).catch(function(){})}
+    else{location.href='mailto:?subject='+encodeURIComponent('Webinar-Tipp: Netzanschluss für Batteriespeicher')+'&body='+encodeURIComponent(text+'\n\n'+url)}
+  });
+
+  // Buttons, die zum Formular springen, setzen den Cursor ins erste leere Feld
+  document.querySelectorAll('[data-focus]').forEach(function(el){
+    el.addEventListener('click',function(){
+      setTimeout(function(){var t=!okName(nameI.value)?nameI:(!okMail(mailI.value)?mailI:btn);if(!card.classList.contains('sent'))t.focus({preventScroll:true})},450);
+    });
+  });
+
+  // Sticky-Button nur, wenn das Formular nicht sichtbar ist
+  var bar=$('sticky'),hideSticky=false;
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(function(e){
+      var show=!e[0].isIntersecting&&!hideSticky;
+      bar.classList.toggle('show',show);
+      bar.setAttribute('aria-hidden',show?'false':'true');
+      bar.querySelector('a').setAttribute('tabindex',show?'0':'-1');
+    }).observe(card);
+  }
 })();
 </script>
 </body>
